@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "gothamcondssm_book";
+    src: ur("../public/gothamcondssm_book.otf");
+}
+
+*{
+    font-family: "gothamcondssm_book", "sans-serif";
+}
+
+@layer components{
+     .link{
+        @apply cursor-pointer text-xs;
+     }
+     .custom-color{
+        @apply text-gray-700;
+     }
+}

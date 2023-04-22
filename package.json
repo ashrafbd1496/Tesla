@@ -1,0 +1,14 @@
+{
+  "name": "tesla",
+  "version": "1.0.0",
+  "description": "Tesla Clone using tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/tesla.css -o ./dist/style.css --watch"
+  },
+  "author": "Ashraf",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
